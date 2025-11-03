@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>경희 등장인물 전거 파일</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Project-specific authority file for LEAF-Writer.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Generated for the [Your Project Name] project.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  
+  <standOff>
+    
+    <listPerson>
+      <person xml:id="KMP">
+        <persName>김 부인</persName>
+        <floruit>경희의 어머니, 이철원의 아내, 이철원댁 주인 마님</floruit>
+      </person>
+      <person xml:id="SDM">
+        <persName>사돈 마님</persName>
+        <floruit>뚱뚱한 마님, 서문안 사돈 마님</floruit>
+      </person>
+      <person xml:id="LCR">
+        <persName><choice><orig>李鐵原</orig><reg>이철원</reg></choice></persName>
+        <floruit>경희의 아버지, 김 부인의 남편, 철원 군수</floruit>
+      </person>
+      <person xml:id="KH">
+        <persName>경희</persName>
+        <floruit>이철원과 김 부인의 딸</floruit>
+      </person>
+      <person xml:id="KHD">
+        <persName>경희 오라버니댁</persName>
+        <floruit>경희의 오라버니 부인, 건넌방 아씨, 건넌방 색시</floruit>
+      </person>
+      <person xml:id="SW">
+        <persName>시월이</persName>
+        <floruit>집안의 하인/일꾼, 점동의 어머니</floruit>
+      </person>
+      <person xml:id="TJS">
+        <persName>떡장사</persName>
+        <floruit>나이가 한 사십가량 된 떡 장사</floruit>
+      </person>
+      <person xml:id="SNM">
+        <persName>수남 어머니</persName>
+        <floruit>소년 과부, 경희의 아주머니</floruit>
+      </person>
+      <person xml:id="SN">
+        <persName><choice><orig>壽男</orig><reg>수남</reg></choice></persName>
+        <floruit>수남 어머니의 유복자</floruit>
+      </person>
+      <person xml:id="JD">
+        <persName><choice><orig>點童</orig><reg>점동</reg></choice></persName>
+        <floruit>시월이의 자식</floruit>
+      </person>
+      <person xml:id="KPS">
+        <persName>김 판사</persName>
+        <floruit>잠재적인 사돈 가문의 가장</floruit>
+      </person>
+      <person xml:id="ANZ">
+        <persName><choice><orig>顔子</orig><reg>안자</reg></choice></persName>
+        <floruit>고대 현자</floruit>
+      </person>
+      <person xml:id="NPL">
+        <persName>나폴레옹</persName>
+        <floruit>프랑스의 황제</floruit>
+      </person>
+      <person xml:id="STL">
+        <persName>스타엘 부인</persName>
+        <floruit>나폴레옹 시대의 인물</floruit>
+      </person>
+      <person xml:id="ZDRK">
+        <persName>잔다르크</persName>
+        <floruit>오를레앙을 구한 영웅</floruit>
+      </person>
+      <person xml:id="PDB">
+        <persName>포드 부인</persName>
+        <floruit>영국 여권론의 용장</floruit>
+      </person>
+      <person xml:id="GOD">
+        <persName>하나님</persName>
+        <floruit>경희가 기도하는 대상</floruit>
+      </person>
+    </listPerson>
+    
+  </standOff>
+</TEI>

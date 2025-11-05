@@ -253,7 +253,7 @@
       <div n="2">
         <head>2</head>
         <sp who="#TJS">
-          <p>“이 더운데 <name><persName>작은아씨</persName></name>, 무얼 그렇게 하십니까?”</p>
+          <p>“이 더운데 <persName ref="KH">작은아씨</persName>, 무얼 그렇게 하십니까?”</p>
         </sp>
         <p>마루 끝에 떡 함지를 힘없이 놓으며 땀을 씻는다. 얼굴은 억죽억죽 얽고 머리는 <placeName>평양</placeName> 머리를 해서 얹고 알록달록한 면주 수건을 아무렇게나 쓴 나이가 한 사십가량 된 <persName ref="#TJS">떡 장사</persName>는 으레 하루에 한 번씩 이 집을 들른다.</p>
         <sp who="#KH">

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>지하련 『도정』 인물 전거 파일</title>
+        <author>지하련</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>LEAF-Writer 프로젝트용 인물 전거 파일</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>지하련의 소설 『도정』(1946)에 등장하는 인물 목록</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <listPerson>
+          <person xml:id="SJ">
+            <persName>석재</persName>
+            <note>주인공. 과거 공산당원으로 6년 징역. 한자: 碩宰</note>
+          </person>
+          
+          <person xml:id="K">
+            <persName>강</persName>
+            <note>석재의 옛 동지. 한자: 姜</note>
+          </person>
+          
+          <person xml:id="KC">
+            <persName>기철</persName>
+            <note>석재의 친구. 광산업자에서 공산당 간부. 한자: 基哲</note>
+          </person>
+          
+          <person xml:id="SY">
+            <persName>소년</persName>
+            <note>정거장 운송부에서 만난 소년. 해방 소식 전달.</note>
+          </person>
+          
+          <person xml:id="DNHY">
+            <persName>덴노우 헤이까</persName>
+            <note>일본 천황</note>
+          </person>
+          
+          <person xml:id="ASD">
+            <persName>아베 소-도꾸</persName>
+            <note>아베 총독</note>
+          </person>
+          
+          <person xml:id="SS">
+            <persName>사이상</persName>
+            <note>일본인</note>
+          </person>
+          
+          <person xml:id="GS">
+            <persName>긴상</persName>
+            <note>일본인</note>
+          </person>
+          
+          <person xml:id="KMRS">
+            <persName>기무라상</persName>
+            <note>일본인</note>
+          </person>
+          
+          <person xml:id="KWJS">
+            <persName>가와지마상</persName>
+            <note>일본인</note>
+          </person>
+          
+          <person xml:id="KM">
+            <persName>김</persName>
+            <note>도기공장을 하는 청년. 노동운동. 한자: 金</note>
+          </person>
+          
+          <person xml:id="MT">
+            <persName>민택</persName>
+            <note>석재의 동지. 같은 사건으로 감옥.</note>
+          </person>
+          
+          <person xml:id="JI">
+            <persName>장인</persName>
+            <note>석재의 장인. 전 군청 군수.</note>
+          </person>
+          
+          <person xml:id="multiple">
+            <persName>여러 사람</persName>
+            <note>복수의 화자</note>
+          </person>
+        </listPerson>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>나혜석 『경희』 인물 전거 파일</title>
+        <author>나혜석</author>
+        <respStmt>
+          <resp>전거 파일 편집</resp>
+          <name>편집자명</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>LEAF-Writer 프로젝트용 인물 전거 파일</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>나혜석의 소설 『경희』에 등장하는 인물 목록</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <listPerson>
+          <person xml:id="KMP">
+            <persName>김 부인</persName>
+            <note>경희의 어머니, 이철원의 아내, 이철원댁 주인 마님</note>
+          </person>
+          
+          <person xml:id="SDM">
+            <persName>사돈 마님</persName>
+            <note>뚱뚱한 마님, 서문안 사돈 마님</note>
+          </person>
+          
+          <person xml:id="LCR">
+            <persName>
+              <choice>
+                <orig>李鐵原</orig>
+                <reg>이철원</reg>
+              </choice>
+            </persName>
+            <note>경희의 아버지, 김 부인의 남편, 철원 군수</note>
+          </person>
+          
+          <person xml:id="KH">
+            <persName>경희</persName>
+            <note>이철원과 김 부인의 딸</note>
+          </person>
+          
+          <person xml:id="KHD">
+            <persName>경희 오라버니댁</persName>
+            <persName type="alt">건넌방 아씨</persName>
+            <persName type="alt">건넌방 색시</persName>
+            <note>경희의 오라버니 부인</note>
+          </person>
+          
+          <person xml:id="SW">
+            <persName>시월이</persName>
+            <note>집안의 하인/일꾼, 점동의 어머니</note>
+          </person>
+          
+          <person xml:id="TJS">
+            <persName>떡장사</persName>
+            <note>나이가 한 사십가량 된 떡 장사</note>
+          </person>
+          
+          <person xml:id="SNM">
+            <persName>수남 어머니</persName>
+            <note>소년 과부, 경희의 아주머니</note>
+          </person>
+          
+          <person xml:id="SN">
+            <persName>
+              <choice>
+                <orig>壽男</orig>
+                <reg>수남</reg>
+              </choice>
+            </persName>
+            <note>수남 어머니의 유복자</note>
+          </person>
+          
+          <person xml:id="JD">
+            <persName>
+              <choice>
+                <orig>點童</orig>
+                <reg>점동</reg>
+              </choice>
+            </persName>
+            <note>시월이의 자식</note>
+          </person>
+          
+          <person xml:id="KPS">
+            <persName>김 판사</persName>
+            <note>잠재적인 사돈 가문의 가장</note>
+          </person>
+          
+          <person xml:id="ANZ">
+            <persName>
+              <choice>
+                <orig>顔子</orig>
+                <reg>안자</reg>
+              </choice>
+            </persName>
+            <note>고대 현자</note>
+          </person>
+          
+          <person xml:id="NPL">
+            <persName>나폴레옹</persName>
+            <note>프랑스의 황제</note>
+          </person>
+          
+          <person xml:id="STL">
+            <persName>스타엘 부인</persName>
+            <note>나폴레옹 시대의 인물</note>
+          </person>
+          
+          <person xml:id="ZDRK">
+            <persName>잔다르크</persName>
+            <note>오를레앙을 구한 영웅</note>
+          </person>
+          
+          <person xml:id="PDB">
+            <persName>포드 부인</persName>
+            <note>영국 여권론의 용장</note>
+          </person>
+          
+          <person xml:id="GOD">
+            <persName>하나님</persName>
+            <note>경희가 기도하는 대상</note>
+          </person>
+        </listPerson>
+      </div>
+    </body>
+  </text>
+</TEI>

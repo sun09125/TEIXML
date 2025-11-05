@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>도정 인물</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Test</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Test</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPerson>
+        <person xml:id="SJ"><persName>석재</persName></person>
+        <person xml:id="K"><persName>강</persName></person>
+        <person xml:id="KC"><persName>기철</persName></person>
+        <person xml:id="SY"><persName>소년</persName></person>
+        <person xml:id="KM"><persName>김</persName></person>
+        <person xml:id="MT"><persName>민택</persName></person>
+        <person xml:id="JI"><persName>장인</persName></person>
+      </listPerson>
+    </body>
+  </text>
+</TEI>

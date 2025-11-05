@@ -19,86 +19,7 @@
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/sun09125/TEIXML/main/경희.xml?person_annotation_20251105145317583",
-	"type": "oa:Annotation",
-	"dcterms:created": "2025-11-05T05:53:17.583Z",
-	"dcterms:modified": "2025-11-05T05:53:17.583Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/sun09125",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Park Seon Yeong"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/sun09125/TEIXML/main/경희.xml?person_annotation_20251105145317583#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/sun09125/TEIXML/main/경희.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.9.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/sun09125/TEIXML/main/경희.xml?person_annotation_20251105145317583#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[21]/persName[3]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:PersonalName",
-		"@id": "http://dbpedia.org/resource/Carl_Linnaeus",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.9.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData><profileDesc>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
       <langUsage>
         <language ident="ko">Korean</language>
       </langUsage>
@@ -284,7 +205,7 @@
         <sp who="#SDM">
           <p>“그것은 그리 많이 해 무엇하니. 사내니 고을을 간단 말이냐? 군주사라도 한단 말이냐? 지금 세상에 사내도 배워 가지고 쓸 데가 없어서 쩔쩔 매는데…….”</p>
         </sp>
-        <p><persName ref="#SDM">이 마님</persName>은 여간 걱정스러워 아니한다. 그리고 대관절 계집애를 <placeName>일본</placeName>까지 보내 이 공부를 시키는 사돈 영감과 <persName ref="#SDM">마님</persName>이며 또 그렇게 배우면 대체 무엇하자는 것인지를 몰라 답답해한 적은 오래 전부터 있으나 다른 집과 달라 사돈집 일이라 속으로는 늘 ‘<persName key="Carl Linnaeus" ref="http://dbpedia.org/resource/Carl_Linnaeus">저 계집애</persName>를 누가 데려가나.’ 욕을 하면서도 할 수 있는 대로는 모른 체하여 왔다가 오늘 우연한 좋은 기회에 걱정해 오던 것을 말한 것이다.</p>
+        <p><persName ref="#SDM">이 마님</persName>은 여간 걱정스러워 아니한다. 그리고 대관절 계집애를 <placeName>일본</placeName>까지 보내 이 공부를 시키는 사돈 영감과 <persName ref="#SDM">마님</persName>이며 또 그렇게 배우면 대체 무엇하자는 것인지를 몰라 답답해한 적은 오래 전부터 있으나 다른 집과 달라 사돈집 일이라 속으로는 늘 ‘저 계집애를 누가 데려가나.’ 욕을 하면서도 할 수 있는 대로는 모른 체하여 왔다가 오늘 우연한 좋은 기회에 걱정해 오던 것을 말한 것이다.</p>
         <p><persName ref="#KH">경희</persName>는 <persName ref="#SDM">이 마님</persName> 입에서 ‘어서 시집을 가거라. 공부는 해서 무엇하니.’ 꼭 이 말이 나올 줄 알았다. 속으로 ‘옳지, 그럴 줄 알았지.’ 하였다. 그리고 어제 오셨던 이모님 입에서 나오던 말이며 <persName ref="#KH">경희</persName>를 보실 때마다 걱정하시는 큰어머니 말씀과 모두 일치되는 것을 알았다. 또 작년 여름에 듣던 말을 금년 여름에도 듣게 되었다. <persName ref="#KH">경희</persName>의 입술은 간질간질하였다.</p>
         <sp who="#KH">
           <p>‘먹고 입고만 하는 것이 사람이 아니라 배우고 알아야 사람이에요. 당신댁처럼 영감 아들간에 첩이 넷이나 있는 것도 배우지 못한 까닭이고 그것으로 속을 썩이는 당신도 알지 못한 죄이에요. 그러니까 여편네가 시집가서 시앗을 보지 않도록 하는 것도 가르쳐야 하고 여편네 두고 첩을 얻지 못하게 하는 것도 가르쳐야만 합니다.’</p>

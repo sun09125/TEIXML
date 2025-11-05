@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>지하련 『도정』 인물 전거 파일</title>
+        <author>지하련</author>
+        <respStmt>
+          <resp>전거 파일 편집</resp>
+          <n>편집자명</n>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>LEAF-Writer 프로젝트용 인물 전거 파일</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>지하련의 소설 『도정』(1946)에 등장하는 인물 목록</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <listPerson>
+          <person xml:id="SJ">
+            <persName>
+              <choice>
+                <orig>碩宰</orig>
+                <reg>석재</reg>
+              </choice>
+            </persName>
+          </person>
+          <person xml:id="K">
+            <persName>
+              <choice>
+                <orig>姜</orig>
+                <reg>강</reg>
+              </choice>
+            </persName>
+          </person>
+          <person xml:id="KC">
+            <persName>
+              <choice>
+                <orig>基哲</orig>
+                <reg>기철</reg>
+              </choice>
+            </persName>
+          </person>
+          <person xml:id="SY">
+            <persName>소년</persName>
+          </person>
+          <person xml:id="DNHY">
+            <persName>덴노우 헤이까</persName>
+          </person>
+          <person xml:id="ASD">
+            <persName>아베 소-도꾸</persName>
+          </person>
+          <person xml:id="SS">
+            <persName>사이상</persName>
+          </person>
+          <person xml:id="GS">
+            <persName>긴상</persName>
+          </person>
+          <person xml:id="KMRS">
+            <persName>기무라상</persName>
+          </person>
+          <person xml:id="KWJS">
+            <persName>가와지마상</persName>
+          </person>
+          <person xml:id="KM">
+            <persName>
+              <choice>
+                <orig>金</orig>
+                <reg>김</reg>
+              </choice>
+            </persName>
+          </person>
+          <person xml:id="MT">
+            <persName>민택</persName>
+          </person>
+          <person xml:id="JI">
+            <persName>장인</persName>
+          </person>
+          <person xml:id="multiple">
+            <persName>Multiple Speakers</persName>
+          </person>
+        </listPerson>
+      </div>
+    </body>
+  </text>
+</TEI>
